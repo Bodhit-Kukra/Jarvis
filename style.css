@@ -1,0 +1,106 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0; /* Add padding for scrollable content */
+    text-align: center;
+}
+
+.container {
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#status {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #a0a0a0;
+}
+
+.command-text {
+    min-height: 2rem;
+    font-style: italic;
+    color: #4CAF50; /* A green color for the recognized command */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#start-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-btn:hover {
+    background-color: #45a049;
+}
+
+/* --- NEW STYLES FOR NEWS DISPLAY --- */
+
+#news-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 15px;
+    text-align: left; /* Align text inside cards to the left */
+}
+
+.news-card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #4CAF50;
+    transition: transform 0.2s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px); /* Add a subtle hover effect */
+}
+
+.news-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.news-card p {
+    margin: 0;
+    color: #b0b0b0;
+    font-size: 0.9rem;
+}
+
+.news-card a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
