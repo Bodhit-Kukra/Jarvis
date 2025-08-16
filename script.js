@@ -5,7 +5,7 @@ const commandTextDiv = document.getElementById('command-text');
 const newsContainer = document.getElementById('news-container');
 
 // --- IMPORTANT: Update this after deploying your backend ---
-const VERCEL_BACKEND_URL = "https://your-app-name.vercel.app/api/process-command";
+const VERCEL_BACKEND_URL = "https://j4-red.vercel.app/api/process-command";
 
 // --- Web Speech API Initialization ---
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
