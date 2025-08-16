@@ -3,7 +3,7 @@
 This is a web-based voice assistant, inspired by JARVIS, that runs entirely in your browser. It uses the Web Speech API for voice recognition and speech synthesis. The frontend is hosted on GitHub Pages, and it communicates with a Python Flask backend deployed on Vercel to process complex queries using the Google Gemini API and fetch news from the NewsAPI.
 
 
-Features ✨
+# Features ✨
 
 1. Voice Commands: Control the assistant with your voice.
 2. Web Browsing: Open popular websites like YouTube, Google, and social media platforms.
@@ -14,7 +14,7 @@ Features ✨
 7. Client-Side Logic: Most simple commands (like opening websites) are handled directly in the browser for a fast response.
 
 
-Tech Stack 🛠️
+# Tech Stack 🛠️
 
 Frontend:
 1. HTML5
@@ -33,7 +33,7 @@ Deployment:
 2. Backend: Vercel
 
 
-Architecture 🏗️
+# Architecture 🏗️
 
 The application uses a decoupled frontend-backend architecture:
 
@@ -46,7 +46,7 @@ The backend sends the structured response (text and/or data) back to the fronten
 The frontend receives the JSON response, speaks the answer using the Web Speech API, and displays the information on the page.
 
 
-Local Setup and Installation ⚙️
+# Local Setup and Installation ⚙️
 
 To run this project on your local machine, follow these steps.
 
@@ -59,22 +59,25 @@ Prerequisites:
 4. Backend (Flask API)
 
 Clone the repository:
-Bash
+
+- Bash
 1. git clone https://github.com/bodhit-kukra/Jarvis.git
 2. cd Jarvis
 
 Create and activate a virtual environment:
-Bash
-#ON WINDOWS
+
+- Bash
+# On Windows
 1. python -m venv venv
 2. .\venv\Scripts\activate
 
-#On MAC OS/LINUX
+# On macOS/Linux
 1. python3 -m venv venv
 2. source venv/bin/activate
 
 Install the required Python packages:
-Bash
+
+- Bash
 1. pip install -r requirements.txt
 
 Create a .env file in the root directory and add your API keys:
@@ -95,7 +98,7 @@ const vercelApiUrl = "http://127.0.0.1:5000/api/response";
 Simply open the index.html file in your web browser.
 
 
-How to Use 🎤
+# How to Use 🎤
 
 1. Open the web page.
 2. Click the "Activate Jarvis" button.
@@ -110,7 +113,7 @@ Example Commands:
 5. "Jarvis, explain quantum computing in simple terms"
 
 
-Live Demo 🚀
+# Live Demo 🚀
 
 You can try out the live version of the application here:
 
