@@ -6,7 +6,8 @@ A web-based, voice-activated assistant powered by Python, Flask, and the Google 
     <img src="./assets/jarvis-screenshot.png" alt="Jarvis Project Screenshot" width="700>
 </p>
 
-## 🚀 About The Project
+
+# 🚀 About The Project
 
 This is a web-based voice assistant, inspired by JARVIS, that runs entirely in your browser. It uses the Web Speech API for voice recognition and speech synthesis. The frontend is hosted on GitHub Pages, and it communicates with a Python Flask backend deployed on Vercel to process complex queries using the Google Gemini API and fetch news from the NewsAPI.
 
@@ -121,7 +122,7 @@ Simply open the index.html file in your web browser.
     5. "Jarvis, explain quantum computing in simple terms"
 
 
-# Live Demo 🚀
+## Live Demo 🚀
 
 You can try out the live version of the application here:
 
