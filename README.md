@@ -66,10 +66,10 @@ To run this project on your local machine, follow these steps.
 
 - Create and activate a virtual environment:
 
-> Bash
-> On Windows
-    > python -m venv venv
-    > .\venv\Scripts\activate
+> Bash  
+> On Windows  
+    > python -m venv venv  
+    > .\venv\Scripts\activate  
 
 > On macOS/Linux
     > python3 -m venv venv
