@@ -90,8 +90,8 @@ To run this project on your local machine, follow these steps.
     > pip install -r requirements.txt
 
 - Create a .env file in the root directory and add your API keys:
-    1. NEWS_API_KEY="YOUR_NEWS_API_KEY"
-    2. GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+    > NEWS_API_KEY="YOUR_NEWS_API_KEY"
+    > GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 
 - Run the Flask server:
 > Bash <br>
