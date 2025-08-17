@@ -58,7 +58,7 @@ To run this project on your local machine, follow these steps.
     2. Google AI Studio (Gemini)
 4. Backend (Flask API)
 
-Clone the repository:
+> Clone the repository:
 
 - Bash
 1. git clone https://github.com/bodhit-kukra/Jarvis.git
