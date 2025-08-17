@@ -86,7 +86,7 @@ To run this project on your local machine, follow these steps.
 
 - Run the Flask server:
 > Bash <br>
-    > python app.py
+    > python app.py <br>
 The backend server will now be running at http://127.0.0.1:5000.
 
 > Frontend <br>
