@@ -30,6 +30,11 @@ async function handleBackendResponse(data) {
     // 1. Speak the response
     if (data.speak) {
         speak(data.speak);
+        newsContainer.innerHTML = ""; // Clear previous news
+        const newsCard = document.createElement('div');
+        newsCard.className = 'news-card';
+        newsCard.innerHTML = data.speak
+        newsContainer.appendChild(newsCard);
     }
 
     // 2. Perform any required actions
