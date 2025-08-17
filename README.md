@@ -17,20 +17,20 @@ This is a web-based voice assistant, inspired by JARVIS, that runs entirely in y
 # Tech Stack 🛠️
 
 - Frontend:
-1. HTML5
-2. CSS3
-3. JavaScript (Vanilla)
-4. Web Speech API (for voice recognition and synthesis)
+    1. HTML5
+    2. CSS3
+    3. JavaScript (Vanilla)
+    4. Web Speech API (for voice recognition and synthesis)
 
 - Backend:
-1. Python 3
-2. Flask (for creating the API)
-3. Google Generative AI API (Gemini)
-4. NewsAPI
+    1. Python 3
+    2. Flask (for creating the API)
+    3. Google Generative AI API (Gemini)
+    4. NewsAPI
 
 - Deployment:
-1. Frontend: GitHub Pages
-2. Backend: Vercel
+    1. Frontend: GitHub Pages
+    2. Backend: Vercel
 
 
 # Architecture 🏗️
@@ -50,7 +50,7 @@ The frontend receives the JSON response, speaks the answer using the Web Speech 
 
 To run this project on your local machine, follow these steps.
 
-* Prerequisites: 
+- Prerequisites: 
 1. Python 3.8 or higher
 2. A modern web browser that supports the Web Speech API (e.g., Chrome, Edge)
 3. API keys for:
@@ -58,7 +58,7 @@ To run this project on your local machine, follow these steps.
     2. Google AI Studio (Gemini)
 4. Backend (Flask API)
 
-> Clone the repository:
+- Clone the repository:
 
 - Bash
 1. git clone https://github.com/bodhit-kukra/Jarvis.git
