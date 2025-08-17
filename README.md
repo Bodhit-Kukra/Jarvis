@@ -60,9 +60,9 @@ To run this project on your local machine, follow these steps.
 
 - Clone the repository:
 
-> Bash
-    > git clone https://github.com/bodhit-kukra/Jarvis.git
-    > cd Jarvis
+> Bash <br>
+    > git clone https://github.com/bodhit-kukra/Jarvis.git <br>
+    > cd Jarvis <br>
 
 - Create and activate a virtual environment:
 
@@ -71,9 +71,9 @@ To run this project on your local machine, follow these steps.
     > python -m venv venv  <br>
     > .\venv\Scripts\activate <br> 
 
-> On macOS/Linux
-    > python3 -m venv venv
-    > source venv/bin/activate
+> On macOS/Linux <br>
+    > python3 -m venv venv <br>
+    > source venv/bin/activate <br>
 
 - Install the required Python packages:
 
