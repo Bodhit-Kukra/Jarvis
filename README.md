@@ -67,7 +67,7 @@ To run this project on your local machine, follow these steps.
 - Create and activate a virtual environment:
 
 > Bash <br>
-> On Windows
+> On Windows <br>
     > python -m venv venv  <br>
     > .\venv\Scripts\activate <br> 
 
