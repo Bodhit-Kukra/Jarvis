@@ -5,13 +5,13 @@ This is a web-based voice assistant, inspired by JARVIS, that runs entirely in y
 
 # Features ✨
 
-1. Voice Commands: Control the assistant with your voice.
-2. Web Browsing: Open popular websites like YouTube, Google, and social media platforms.
-3. Web Search: Perform Google searches directly by voice.
-4. Music Playback: Play songs from a predefined library on YouTube.
-5. Latest News: Get the top 5 latest news headlines from the US, which are spoken aloud and displayed on the screen.
-6. AI-Powered Conversations: For commands that are not hard-coded, the assistant uses the Google Gemini API to generate intelligent and relevant responses.
-7. Client-Side Logic: Most simple commands (like opening websites) are handled directly in the browser for a fast response.
+- Voice Commands: Control the assistant with your voice.
+- Web Browsing: Open popular websites like YouTube, Google, and social media platforms.
+- Web Search: Perform Google searches directly by voice.
+- Music Playback: Play songs from a predefined library on YouTube.
+- Latest News: Get the top 5 latest news headlines from the US, which are spoken aloud and displayed on the screen.
+- AI-Powered Conversations: For commands that are not hard-coded, the assistant uses the Google Gemini API to generate intelligent and relevant responses.
+- Client-Side Logic: Most simple commands (like opening websites) are handled directly in the browser for a fast response.
 
 
 # Tech Stack 🛠️
@@ -51,34 +51,34 @@ The frontend receives the JSON response, speaks the answer using the Web Speech 
 To run this project on your local machine, follow these steps.
 
 - Prerequisites: 
-1. Python 3.8 or higher
-2. A modern web browser that supports the Web Speech API (e.g., Chrome, Edge)
-3. API keys for:
-    1. NewsAPI
-    2. Google AI Studio (Gemini)
-4. Backend (Flask API)
+    1. Python 3.8 or higher
+    2. A modern web browser that supports the Web Speech API (e.g., Chrome, Edge)
+    3. API keys for:
+        1. NewsAPI
+        2. Google AI Studio (Gemini)
+    4. Backend (Flask API)
 
 - Clone the repository:
 
-- Bash
-1. git clone https://github.com/bodhit-kukra/Jarvis.git
-2. cd Jarvis
+> Bash
+    > git clone https://github.com/bodhit-kukra/Jarvis.git
+    > cd Jarvis
 
-Create and activate a virtual environment:
+- Create and activate a virtual environment:
 
-- Bash
-# On Windows
-1. python -m venv venv
-2. .\venv\Scripts\activate
+> Bash
+> On Windows
+    > python -m venv venv
+    > .\venv\Scripts\activate
 
-# On macOS/Linux
-1. python3 -m venv venv
-2. source venv/bin/activate
+> On macOS/Linux
+    > python3 -m venv venv
+    > source venv/bin/activate
 
-Install the required Python packages:
+- Install the required Python packages:
 
-- Bash
-1. pip install -r requirements.txt
+> Bash
+    > pip install -r requirements.txt
 
 Create a .env file in the root directory and add your API keys:
 1. NEWS_API_KEY="YOUR_NEWS_API_KEY"
