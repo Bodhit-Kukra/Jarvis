@@ -16,19 +16,19 @@ This is a web-based voice assistant, inspired by JARVIS, that runs entirely in y
 
 # Tech Stack 🛠️
 
-Frontend:
+- Frontend:
 1. HTML5
 2. CSS3
 3. JavaScript (Vanilla)
 4. Web Speech API (for voice recognition and synthesis)
 
-Backend:
+- Backend:
 1. Python 3
 2. Flask (for creating the API)
 3. Google Generative AI API (Gemini)
 4. NewsAPI
 
-Deployment:
+- Deployment:
 1. Frontend: GitHub Pages
 2. Backend: Vercel
 
@@ -37,11 +37,11 @@ Deployment:
 
 The application uses a decoupled frontend-backend architecture:
 
-1. The Frontend, a static site (HTML, CSS, JS), is hosted on GitHub Pages. It captures voice commands from the user.
+- The Frontend, a static site (HTML, CSS, JS), is hosted on GitHub Pages. It captures voice commands from the user.
 Simple commands (e.g., "Jarvis, open YouTube") are processed directly in the browser using JavaScript.
 For complex queries (e.g., "Jarvis, what is the capital of France?") or news requests, the frontend sends a POST request to the backend API.
 
-2. The Backend, a Flask application hosted on Vercel, receives the request. It processes the query using the Google Gemini API or fetches data from the NewsAPI.
+- The Backend, a Flask application hosted on Vercel, receives the request. It processes the query using the Google Gemini API or fetches data from the NewsAPI.
 The backend sends the structured response (text and/or data) back to the frontend in JSON format.
 The frontend receives the JSON response, speaks the answer using the Web Speech API, and displays the information on the page.
 
@@ -50,7 +50,7 @@ The frontend receives the JSON response, speaks the answer using the Web Speech 
 
 To run this project on your local machine, follow these steps.
 
-Prerequisites:
+* Prerequisites: 
 1. Python 3.8 or higher
 2. A modern web browser that supports the Web Speech API (e.g., Chrome, Edge)
 3. API keys for:
