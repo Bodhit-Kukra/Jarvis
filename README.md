@@ -3,7 +3,7 @@
 A web-based, voice-activated assistant powered by Python, Flask, and the Google Gemini API.
 
 <p align="center">
-    <img src="./assets/jarvis-screenshot.png" alt="Jarvis Project Screenshot" width="700>
+    <img src="./assets/jarvis-screenshot.png" alt="Jarvis Project Screenshot" width="700">
 </p>
 
 
@@ -122,7 +122,7 @@ Simply open the index.html file in your web browser.
     5. "Jarvis, explain quantum computing in simple terms"
 
 
-## Live Demo 🚀
+# Live Demo 🚀
 
 You can try out the live version of the application here:
 
